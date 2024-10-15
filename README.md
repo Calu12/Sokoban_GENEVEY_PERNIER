@@ -43,8 +43,12 @@ java --add-opens java.base/java.lang=ALL-UNNAMED -server -Xms2048m -Xmx2048m -cp
 Aller à l'adresse http://localhost:8888/test.html sur un navigateur pour regarder la résoltion sur l'interface.
 
 Il est possible de changer de niveau, pour ce faire un faut modifier les chemins d'acces suivants :
-   \n-Sokoban_GENEVEY_PERNIER/src/main/java/sokoban/jsonCharArray.java ligne 15
-   \n-src/main/java/sokoban/SokobanMain.java ligne 9
+   
+   -Sokoban_GENEVEY_PERNIER/src/main/java/sokoban/jsonCharArray.java ligne 15
+   
+   -src/main/java/sokoban/SokobanMain.java ligne 9
+
+   
 Puis il faut executer à nouveau la commande : 
 ```
 mvn clean compile -U
