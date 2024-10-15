@@ -1,0 +1,10 @@
+com\codingame\game\Player.class
+sokoban\Box.class
+sokoban\Board.class
+sokoban\jsonCharArray.class
+sokoban\Cell.class
+com\codingame\game\Referee.class
+sokoban\Agent.class
+sokoban\Pusher.class
+sokoban\MyPlanner.class
+sokoban\SokobanMain.class
