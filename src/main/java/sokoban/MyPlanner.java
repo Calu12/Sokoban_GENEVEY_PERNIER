@@ -139,6 +139,8 @@ public class MyPlanner extends AbstractPlanner {
      * @param args the arguments of the command line.
      */
     public static void main(String[] args) {
+
+        jsonCharArray.main(args);
         try {
             final MyPlanner planner = new MyPlanner();
             CommandLine cmd = new CommandLine(planner);
