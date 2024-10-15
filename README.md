@@ -53,4 +53,11 @@ Puis il faut executer à nouveau la commande :
 ```
 mvn clean compile -U
 ```
+```
+mvn clean install
+```
+
+```
+mvn clean package
+```
 Notez que pour faire ces changement il faut arreter le jeu et le relancer apres.
