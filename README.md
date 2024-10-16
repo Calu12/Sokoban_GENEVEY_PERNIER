@@ -42,11 +42,9 @@ java --add-opens java.base/java.lang=ALL-UNNAMED -server -Xms2048m -Xmx2048m -cp
 
 Aller à l'adresse http://localhost:8888/test.html sur un navigateur pour regarder la résoltion sur l'interface.
 
-Il est possible de changer de niveau, pour ce faire un faut modifier les chemins d'acces suivants :
-   
-   -Sokoban_GENEVEY_PERNIER/src/main/java/sokoban/jsonCharArray.java ligne 15
-   
-   -src/main/java/sokoban/SokobanMain.java ligne 9
+Il est possible de changer de niveau, une liste de test est disponible dans le dossier config à la racine du projet.
+
+Pour changer de niveau, il faut remplacer la valeur "test15.json" à la ligne 7 du fichier "src/main/java/sokoban/SokobanMain.java" par le nom du fichier de configuration souhaité.
 
    
 Puis il faut executer à nouveau la commande : 
