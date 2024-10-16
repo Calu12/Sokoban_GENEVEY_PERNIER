@@ -29,24 +29,19 @@ mvn clean package
 
 <h1>Lancer le Jeu</h1>
 
-Exécuter la commande suivante pour generer le problème et trouver la solution :
-
-```
-java --add-opens java.base/java.lang=ALL-UNNAMED     -server -Xms2048m -Xmx2048m      -cp target/sokoban-1.0-SNAPSHOT-jar-with-dependencies.jar       sokoban.MyPlanner src\main\java\sokoban\domain.pddl src\main\java\sokoban\sokoban_problem.pddl
-```
-
 Executer la commande suivant pour lancer l'interface Sokoban : 
 ```
 java --add-opens java.base/java.lang=ALL-UNNAMED -server -Xms2048m -Xmx2048m -cp target/sokoban-1.0-SNAPSHOT-jar-with-dependencies.jar sokoban.SokobanMain
 ```
 
-Aller à l'adresse http://localhost:8888/test.html sur un navigateur pour regarder la résoltion sur l'interface.
+Aller à l'adresse http://localhost:8888/test.html sur un navigateur pour acceder à l'interface, puis cliquer sur le bouton de lecture pour regarder la résoltion du jeu.
+
+<h1>Changement de niveau</h1>
 
 Il est possible de changer de niveau, une liste de test est disponible dans le dossier config à la racine du projet.
 
 Pour changer de niveau, il faut remplacer la valeur "test15.json" à la ligne 7 du fichier "src/main/java/sokoban/SokobanMain.java" par le nom du fichier de configuration souhaité.
 
-   
 Puis il faut executer à nouveau la commande : 
 ```
 mvn clean compile -U
