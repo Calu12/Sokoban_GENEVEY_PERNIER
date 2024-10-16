@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 public class jsonCharArray {
     public static void main(String[] args) {
         // Remplacez "path/to/your/file.json" par le chemin de votre fichier JSON
-        String filePath = "config/test11.json";
+        String filePath = "config/"+args[0];
 
         try {
             // Lire le contenu du fichier
