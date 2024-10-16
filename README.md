@@ -48,9 +48,7 @@ Puis il faut executer à nouveau la commande :
 ```
 mvn clean compile -U
 ```
-```
-mvn clean install
-```
+
 
 ```
 mvn clean package
