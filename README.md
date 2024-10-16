@@ -29,7 +29,7 @@ mvn clean package
 
 <h1>Lancer le Jeu</h1>
 
-Executer la commande suivant pour lancer l'interface Sokoban : 
+Executer la commande suivante pour lancer l'interface Sokoban : 
 ```
 java --add-opens java.base/java.lang=ALL-UNNAMED -server -Xms2048m -Xmx2048m -cp target/sokoban-1.0-SNAPSHOT-jar-with-dependencies.jar sokoban.SokobanMain
 ```
