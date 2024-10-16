@@ -12,7 +12,7 @@ public class SokobanMain {
 
         SoloGameRunner gameRunner = new SoloGameRunner();
         gameRunner.setAgent(Agent.class);
-        gameRunner.setTestCase("test11.json");
+        gameRunner.setTestCase(niveau);
 
         gameRunner.start();
     }
