@@ -1,5 +1,7 @@
 Play the game on [CodinGame](https://www.codingame.com/training/hard/sokoban)
 
+Binome : Alexandre PERNIER & Coemgen GENEVEY
+
 <h1>Installation</h1>
 
 Maven, Git et Gradle doivent être installé sur la machine.
