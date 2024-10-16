@@ -8,7 +8,7 @@ public class SokobanMain {
 
         jsonCharArray.main(new String[]{niveau});
 
-        MyPlanner.main(new String[]{"src\\main\\java\\sokoban\\domain.pddl", "src\\main\\java\\sokoban\\sokoban_problem.pddl"})
+        MyPlanner.main(new String[]{"src\\main\\java\\sokoban\\domain.pddl", "src\\main\\java\\sokoban\\sokoban_problem.pddl"});
 
         SoloGameRunner gameRunner = new SoloGameRunner();
         gameRunner.setAgent(Agent.class);
