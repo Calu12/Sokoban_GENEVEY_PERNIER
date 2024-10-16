@@ -35,7 +35,7 @@ public class jsonCharArray {
             System.out.println(pddlProblem);
 
             // Écrire le problème PDDL dans un fichier
-            FileWriter fileWriter = new FileWriter(new File("sokoban_problem.pddl"));
+            FileWriter fileWriter = new FileWriter(new File("src/main/java/sokoban/sokoban_problem.pddl"));
             fileWriter.write(pddlProblem);
             fileWriter.close();
 
